@@ -1,6 +1,6 @@
 %define	module	IO-Compress-Lzop
 %define	name	perl-%{module}
-%define	version	2.015
+%define	version	2.019
 %define	release	%mkrel 1
 
 Name:		%{name}
@@ -9,13 +9,12 @@ Release:	%{release}
 Summary:	IO::Compress::Lzop - Write lzop files/buffers
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}/
-BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
+Source:     http://www.cpan.org/modules/by-module/IO/%{module}-%{version}.tar.gz
 BuildRequires: perl(IO::Compress::Base) >= %version
 BuildRequires: perl(Compress::LZO)
 BuildArch: noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module provides a Perl interface that allows writing lzop compressed
