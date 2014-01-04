@@ -1,5 +1,5 @@
 %define	upstream_name  IO-Compress-Lzop
-%define upstream_version 2.062
+%define upstream_version 2.063
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	IO::Compress::Lzop - Write lzop files/buffers
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/IO/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/IO/IO-Compress-Lzop-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Compress::LZO)
@@ -140,4 +140,5 @@ make test
 + Revision: 104993
 - first mandriva package
 - Create perl-IO-Compress-Lzop
+
 

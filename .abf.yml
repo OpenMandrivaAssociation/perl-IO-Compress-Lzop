@@ -1,4 +1,5 @@
 removed_sources:
   IO-Compress-Lzop-2.049.tar.gz: ed7d4d6f9568af49249b4f96a549d5f10b47b5bb
-sources:
   IO-Compress-Lzop-2.062.tar.gz: 0e98b481ddecb577c9a49bc9e9ad34386518d29a
+sources:
+  IO-Compress-Lzop-2.063.tar.gz: 85b56559d2550468ae875819cbed900b1c4c5881
