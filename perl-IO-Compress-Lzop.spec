@@ -1,5 +1,5 @@
 %define	upstream_name  IO-Compress-Lzop
-%define upstream_version 2.063
+%define upstream_version 2.064
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -140,5 +140,6 @@ make test
 + Revision: 104993
 - first mandriva package
 - Create perl-IO-Compress-Lzop
+
 
 
